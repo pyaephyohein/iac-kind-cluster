@@ -3,12 +3,15 @@
 ## To Do
 - [x] Nginx ingress
 - [ ] Add Node via env
-- [ ] Grafana Stack
-- [ ] Loki Stack
+- [x] Grafana
+- [x] Prometheus
+- [ ] Dashboards
+- [ ] Loki
 - [ ] FluentD
 - [ ] ELK Stack
 - [ ] Argocd
 - [ ] Flux
+- [ ] Sonarqube
 - [ ] Terragrunt
 - [ ] Testing
 
