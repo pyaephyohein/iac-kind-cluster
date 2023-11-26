@@ -1,5 +1,7 @@
 ## Kind Cluster for Local testing
-
+## Pre-Request
+- Terraform
+- Docker
 ## To Do
 - [x] Nginx ingress
 - [ ] Add Node via env
