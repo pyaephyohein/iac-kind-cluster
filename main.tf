@@ -29,7 +29,9 @@ resource "kind_cluster" "default" {
     }
   }
 }
+
 resource "helm_release" "nginx-ingress-controller" {
+  count            = var.enabled_ingress ? 1 : 0
   name             = "ingress-nginx"
   repository       = "https://kubernetes.github.io/ingress-nginx"
   chart            = "ingress-nginx"
@@ -42,3 +44,4 @@ resource "helm_release" "nginx-ingress-controller" {
     })
   ]
 }
+
