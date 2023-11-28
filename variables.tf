@@ -11,8 +11,8 @@ variable "enabled_ingress" {
   type        = bool
   default     = true
 }
-variable "enabled_grafana" {
-  description = "enabled grafana"
+variable "enabled_loki_stack" {
+  description = "enabled loki-stack"
   type        = bool
   default     = false
 }
@@ -20,8 +20,7 @@ variable "ingress_class_name" {
   description = "ingress class name"
   type        = string
 }
-
-variable "enabled_prometheus" {
-  description = "enabled prometheus"
-  type        = bool
+variable "storage_class_name" {
+  description = "storage class name"
+  type        = string
 }
