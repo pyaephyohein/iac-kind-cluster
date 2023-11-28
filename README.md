@@ -7,11 +7,12 @@
 - [ ] Add Node via env
 - [x] Grafana
 - [x] Prometheus
-- [ ] Dashboards
-- [ ] Loki
+- [x] Dashboards
+- [x] Loki
 - [ ] FluentD
 - [ ] ELK Stack
 - [ ] Argocd
+- [ ] Let's Encrypt with Cert-manager
 - [ ] Flux
 - [ ] Sonarqube
 - [ ] Terragrunt
