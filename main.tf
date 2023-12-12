@@ -1,6 +1,6 @@
 resource "kind_cluster" "default" {
   name           = "${var.name}-cluster"
-  node_image     = "kindest/node:v1.27.1"
+  node_image     = "kindest/node:v1.26.4"
   wait_for_ready = true
 
   kind_config {

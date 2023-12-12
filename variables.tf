@@ -24,3 +24,15 @@ variable "storage_class_name" {
   description = "storage class name"
   type        = string
 }
+
+variable "enabled_istio" {
+  description = "istio service mesh class name"
+  type        = string
+}
+variable "letsencrypt-email" {
+  description = "letsencrypt-email"
+}
+
+variable "letsencrypt-env" {
+  description = "letsencrypt-email"
+}
